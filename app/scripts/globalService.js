@@ -12,5 +12,10 @@ angular.module('huguesApp')
 			return 'http://192.168.50.6:64481';
 			//return 'http://localhost:64481';
 		};
+
+		svc.getUrlToken = function() {
+		   return 'http://localhost:50914/api';
+		};
+
 		return svc;
 	});

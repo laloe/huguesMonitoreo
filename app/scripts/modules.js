@@ -28,7 +28,7 @@ angular.module('huguesApp')
 				},
 				url: '/onsite/one',
 				templateUrl: 'views/onsiteValidation/onsiteValidation.html',
-				controller: 'OnsiteOneticCtrl',
+				controller: 'OnsiteValidationCtrl',
 				controllerAs: '$ctrl'
 			},
 			{
