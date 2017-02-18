@@ -40,6 +40,16 @@ angular.module('huguesApp')
 				templateUrl: 'views/onsite/two.html',
 				controller: 'OnsiteTwoticCtrl',
 				controllerAs: '$ctrl'
+			},
+			{
+				name: 'home.display',
+				data: {
+					pageTitle: 'BIENVENIDO | MONITOREO SOFTV',
+				},
+				url: '/diagnostic/displayForSan',
+				templateUrl: 'views/displaySan/displayForSan.html',
+				controller: 'DisplayForSan',
+				controllerAs: '$ctrl'
 			}
 		];
 		states.forEach(function(state) {
