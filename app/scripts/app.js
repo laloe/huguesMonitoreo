@@ -16,6 +16,7 @@ angular
 		'blockUI',
 		'angular-loading-bar',
 		'ngNotify',
+		'ui.bootstrap',
 	])
 	.config(['$provide', '$urlRouterProvider', '$httpProvider', 'cfpLoadingBarProvider', '$qProvider', 'blockUIConfig', function($provide, $urlRouterProvider, $httpProvider, cfpLoadingBarProvider, $qProvider, blockUIConfig) {
 		$urlRouterProvider.otherwise('/main');

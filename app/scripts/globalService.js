@@ -17,5 +17,9 @@ angular.module('huguesApp')
 		   return 'http://localhost:50914/api';
 		};
 
+		svc.servidor = function() {
+			return '192.168.50.60:5000/api';
+		}
+
 		return svc;
 	});
