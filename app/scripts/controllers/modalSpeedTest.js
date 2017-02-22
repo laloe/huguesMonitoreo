@@ -4,8 +4,8 @@ angular
 	.controller('SpeedTestCtrl', function($state, ngNotify, $location, displayFactory, $uibModalInstance) {
 		function initialData() {
             displayFactory.speed().then(function(data) {
-				vm.datos = data;
-                console.log(vm.datos);
+				vm.datos = JSON.parse(data);
+				vm.test = vm.datos.TDD_STR;
 			});
         }
 
